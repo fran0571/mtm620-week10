@@ -1,0 +1,19 @@
+:root
+ {
+  --bs-primary: purple;
+  --bs-primary-rgb: rgb(62, 1, 62);
+  --bs-primary-text-emphasis: rgb(206, 0, 206); 
+  --bs-primary-bg-subtle: rgb(206, 0, 206); 
+  --bs-primary-border-subtle:rgb(206, 0, 206); 
+ }
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color:var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary-bg-subtle);
+  --bs-btn-hover-border-color: var(--bs-primary-bg-subtle);
+  --bs-btn-focus-shadow-rgb:var(--bs-primary-bg-subtle);
+  --bs-btn-active-bg: var(--bs-primary-bg-subtle);
+  --bs-btn-active-border-color: var(var(--bs-primary-rgb):);
+  --bs-btn-disabled-bg: var(--bs-primary);
+}
